@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An immersive guide to the living heritage of Kenya's communities.">
+  <title>Kenya Heritage — Living Stories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-wash" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Kenya Heritage home"><span class="brand-mark">KH</span><span>Kenya<br><em>Heritage</em></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="tribes.html">Tribes</a><a href="regions.html">Regions</a><a href="heritage.html">Heritage</a>
+    </nav>
+    <div class="header-actions"><a class="home-button" href="index.html" aria-label="Go to home">Home</a><button class="icon-button" aria-label="Search"><span>⌕</span></button><button class="menu-button" aria-label="Open menu"><i></i><i></i></button></div>
+  </header>
+
+  <main>
+    <section id="home" class="hero page-section">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Rift Valley, Kenya</p>
+        <h1>THE <em>MAASAI</em></h1>
+        <p class="hero-copy">A living archive of worldviews, ceremonies and landscapes — where memory is carried in song, beadwork, and the rhythm of the earth.</p>
+        <a class="button button-light" href="#tribes">Discover tribe <span>↗</span></a>
+      </div>
+      <div class="hero-carousel" aria-label="Tribe carousel">
+        <button class="tribe-carousel-item active" data-name="Agikuyu" data-region="Central Mount Kenya" data-image="assets/tribes/agikuyu/ag1.jpg" aria-label="View Agikuyu">
+          <span class="tribe-card-label">Card 1</span>
+          <strong>Agikuyu</strong>
+          <small>Central Mount Kenya</small>
+        </button>
+        <button class="tribe-carousel-item" data-name="Abagusii" data-region="Nyamira County" data-image="assets/tribes/abagusii/ab1.jpg" aria-label="View Abagusii">
+          <span class="tribe-card-label">Card 2</span>
+          <strong>Abagusii</strong>
+          <small>Nyamira County</small>
+        </button>
+        <button class="tribe-carousel-item" data-name="Luo" data-region="Lake Victoria" data-image="assets/tribes/luo/l1.jpg" aria-label="View Luo">
+          <span class="tribe-card-label">Card 3</span>
+          <strong>Luo</strong>
+          <small>Lake Victoria</small>
+        </button>
+        <button class="tribe-carousel-item" data-name="Maasai" data-region="Rift Valley" data-image="assets/tribes/maasai/m2.jpg" aria-label="View Maasai">
+          <span class="tribe-card-label">Card 4</span>
+          <strong>Maasai</strong>
+          <small>Rift Valley</small>
+        </button>
+        <button class="tribe-carousel-item" data-name="Luhya" data-region="Western Kenya" data-image="assets/tribes/luhya/u1.jpg" aria-label="View Luhya">
+          <span class="tribe-card-label">Card 5</span>
+          <strong>Luhya</strong>
+          <small>Western Kenya</small>
+        </button>
+        <button class="tribe-carousel-item" data-name="Kalenjin" data-region="Rift Valley Highlands" data-image="assets/tribes/kalenjin/k1.jpg" aria-label="View Kalenjin">
+          <span class="tribe-card-label">Card 6</span>
+          <strong>Kalenjin</strong>
+          <small>Rift Valley Highlands</small>
+        </button>
+      </div>
+      <div class="hero-meta"><span>01 / 06</span><span class="line"></span><span>Scroll to explore</span><span class="scroll-arrow">↓</span></div>
+      <div class="hero-card">
+        <div class="card-label">Featured story <span>↗</span></div>
+        <div><strong id="hero-card-name">Agikuyu</strong><span id="hero-card-region">Central Mount Kenya</span></div>
+        <button class="round-button" data-scroll="#tribes" aria-label="Explore Agikuyu story">→</button>
+      </div>
+    </section>
+
+    <section id="tribes" class="tribes page-section">
+      <div class="section-heading reveal"><p class="eyebrow">Six communities · one living heritage</p><h2>Meet the <em>people</em></h2><p>Every landscape holds a story. Discover the distinct identities, knowledge and artistry of Kenya's communities.</p></div>
+      <div class="tribe-grid">
+        <article class="tribe-tile tile-large reveal" data-name="Agikuyu" data-region="Central highlands" data-image="assets/tribes/agikuyu/ag2.jpg"><img src="assets/tribes/agikuyu/ag2.jpg" alt="Agikuyu cultural gathering"><div class="tile-content"><span>01 · Central highlands</span><h3>Agikuyu</h3><a href="tribe-agikuyu.html">Explore story ↗</a></div></article>
+        <article class="tribe-tile reveal" data-name="Abagusii" data-region="Western highlands"><img src="assets/tribes/abagusii/ab6.jpg" alt="Abagusii hillside homesteads and landscape"><div class="tile-content"><span>02 · Nyamira county</span><h3>Abagusii</h3><a href="tribe-abagusii.html">Explore story ↗</a></div></article>
+        <article class="tribe-tile reveal" data-name="Luo" data-region="Lake Victoria"><img src="assets/tribes/luo/l2.jpg" alt="Luo community members by Lake Victoria"><div class="tile-content"><span>03 · Lake Victoria</span><h3>Luo</h3><a href="tribe-luo.html">Explore story ↗</a></div></article>
+        <article class="tribe-tile reveal" data-name="Maasai" data-region="Rift Valley"><img src="assets/tribes/maasai/m1.jpg" alt="Maasai community portrait"><div class="tile-content"><span>04 · Rift Valley</span><h3>Maasai</h3><a href="tribe-maasai.html">Explore story ↗</a></div></article>
+        <article class="tribe-tile reveal" data-name="Luhya" data-region="Western Kenya"><img src="assets/tribes/luhya/u2.jpg" alt="Luhya community portrait"><div class="tile-content"><span>05 · Western Kenya</span><h3>Luhya</h3><a href="tribe-luhya.html">Explore story ↗</a></div></article>
+        <article class="tribe-tile reveal" data-name="Kalenjin" data-region="Rift Valley highlands"><img src="assets/tribes/kalenjin/k2.jpg" alt="Kalenjin community portrait"><div class="tile-content"><span>06 · Rift Valley highlands</span><h3>Kalenjin</h3><a href="tribe-kalenjin.html">Explore story ↗</a></div></article>
+      </div>
+    </section>
+
+    <section id="profile" class="profile page-section">
+      <div class="profile-hero"><div class="profile-hero-image"></div><div class="profile-title reveal"><p class="eyebrow">Featured profile · 02</p><h2>The <em>Abagusii</em></h2><p>Guardians of the green hills</p></div></div>
+      <div class="profile-body">
+        <aside class="profile-aside"><p class="eyebrow">In this story</p><nav><a class="active" href="#origins">Origins</a><a href="#social">Social structure</a><a href="#language">Language</a><a href="#agriculture">Agriculture</a></nav><div class="audio-card"><span class="audio-kicker">Listen · 03:42</span><button class="audio-toggle" aria-label="Play pronunciation">Play audio</button><div class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div></aside>
+        <article class="story-content"><p class="lede" id="origins">Among the rolling green hills of western Kenya, the Abagusii have cultivated a culture rooted in movement, memory and the generous earth.</p><div class="story-columns"><div><p id="social">The Abagusii, also known as Kisii, trace their story through the highlands around modern-day Kisii and Nyamira counties. Their communities are bound by intricate family networks, a deep respect for elders and an oral tradition that carries history from one generation to the next.</p><p id="language">Gusii language is a tonal Bantu language whose phrases hold the rhythm of everyday life. Through song, proverb and ceremony, language is not only communication—it is a map of belonging.</p></div><figure><img src="assets/tribes/abagusii/ab5.jpg" alt="Abagusii hillside farming landscape"><figcaption>Nyamira · the green hills</figcaption></figure></div><div class="pull-quote">“The land is not inherited from our ancestors; it is borrowed from our children.”</div><p id="agriculture">Tea, bananas and maize shape the agricultural calendar. Alongside the harvest, skilled artisans work soapstone into bowls, figures and polished objects—each one a quiet conversation between hand, material and place.</p></article>
+      </div>
+    </section>
+
+    <section id="regions" class="regions page-section">
+      <div class="section-heading reveal"><p class="eyebrow">Land &amp; belonging</p><h2>Where stories <em>live</em></h2><p>Trace the landscapes that shaped six distinct cultural identities.</p></div>
+      <div class="map-layout"><div class="map-stage" aria-label="Stylized map of Kenya with six heritage regions"><div class="map-shape"><span class="map-outline"></span><span class="node node-1" data-tribe="Agikuyu"></span><span class="node node-2" data-tribe="Abagusii"></span><span class="node node-3" data-tribe="Luo"></span><span class="node node-4" data-tribe="Maasai"></span><span class="node node-5" data-tribe="Luhya"></span><span class="node node-6" data-tribe="Kalenjin"></span><div class="map-tooltip"><small>Heartland</small><strong>Agikuyu</strong><span>Central highlands</span></div></div><span class="map-label label-north">Ethiopia</span><span class="map-label label-west">Lake Victoria</span><span class="map-label label-east">Indian Ocean</span></div><div class="region-list"><div class="list-top"><span>06 regions</span><button class="button button-small">View list <span>↗</span></button></div><button class="region-item active"><span class="region-number">01</span><span><strong>Agikuyu</strong><small>Central highlands</small></span><span>↗</span></button><button class="region-item"><span class="region-number">02</span><span><strong>Abagusii</strong><small>Western highlands</small></span><span>↗</span></button><button class="region-item"><span class="region-number">03</span><span><strong>Luo</strong><small>Lake Victoria</small></span><span>↗</span></button><button class="region-item"><span class="region-number">04</span><span><strong>Maasai</strong><small>Rift Valley</small></span><span>↗</span></button><button class="region-item"><span class="region-number">05</span><span><strong>Luhya</strong><small>Western Kenya</small></span><span>↗</span></button><button class="region-item"><span class="region-number">06</span><span><strong>Kalenjin</strong><small>Rift Valley highlands</small></span><span>↗</span></button></div></div>
+    </section>
+
+    <section id="heritage" class="heritage page-section"><div class="section-heading reveal"><p class="eyebrow">The maker's hand</p><h2>Objects with a <em>memory</em></h2><p>A visual archive of the materials, symbols and skills passed through generations.</p></div><div class="filters" role="toolbar" aria-label="Filter artifacts"><button class="filter active" data-filter="all">All objects</button><button class="filter" data-filter="Agikuyu">Agikuyu</button><button class="filter" data-filter="Abagusii">Abagusii</button><button class="filter" data-filter="Luo">Luo</button><button class="filter" data-filter="Maasai">Maasai</button><button class="filter" data-filter="Luhya">Luhya</button></div><div class="artifact-grid"><button class="artifact tall" data-tribe="Maasai" data-title="Beadwork · A language of colour"><img src="https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=900&q=85" alt="Colourful traditional beadwork"><span>Maasai · Beadwork</span></button>    <button class="artifact wide" data-tribe="Abagusii" data-title="Shield · A story of courage"><img src="assets/tribes/abagusii/ab3.jpg" alt="Abagusii warriors with ceremonial shields"><span>Abagusii · Shield</span></button><button class="artifact" data-tribe="Agikuyu" data-title="The vessel · Holding abundance"><img src="https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=800&q=85" alt="Handmade woven vessel"><span>Agikuyu · Woven vessel</span></button><button class="artifact" data-tribe="Luo" data-title="The drum · A heartbeat in wood"><img src="assets/tribes/luo/l4.png" alt="Luo ceremonial scene"><span>Luo · Drum</span></button><button class="artifact wide" data-tribe="Luhya" data-title="Basketry · The patient weave"><img src="https://images.unsplash.com/photo-1523031365912-01e4b9e8e7f1?auto=format&fit=crop&w=1100&q=85" alt="Woven baskets"><span>Luhya · Basketry</span></button><button class="artifact" data-tribe="Maasai" data-title="Shield · A symbol of courage"><img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=85" alt="Sunset over a landscape"><span>Maasai · Shield</span></button></div></section>  </main>
+  <footer><a class="brand" href="index.html"><span class="brand-mark">KH</span><span>Kenya<br><em>Heritage</em></span></a><p>Made with respect for the stories that shape us.</p><span>© 2026 Kenya Heritage</span></footer>
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Artifact detail"><button class="lightbox-close" aria-label="Close">×</button><img src="" alt=""><div><p class="eyebrow"></p><h2></h2><p>Every object is a record of place, patience and the hands that made it.</p></div></div>
+  <script src="app.js"></script>
+  <script src="shared-transitions.js"></script>
+</body>
+</html>
